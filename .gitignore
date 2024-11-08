@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Entorno virtual
+sentimiento01/
+venv/
+ENV/
+env/
+.env
+# Ignorar directorios de entornos virtuales
+venv/
+env/
+ENV/
+
+
+# Archivos de configuración de IDEs
+.idea/
+.vscode/
+
+# Archivos de logs
+*.log
+
+# Archivos de datos temporales
+*.tmp
+
+# Archivos generados por Jupyter Notebook
+.ipynb_checkpoints
+
+# Archivos de salida de pruebas
+.coverage
+.coverage.*
+nosetests.xml
+test-results/
+
+# Archivos de caché de pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Otros archivos que no deseas incluir
+*.DS_Store

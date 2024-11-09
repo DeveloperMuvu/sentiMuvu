@@ -13,7 +13,7 @@ load_dotenv()
 
 app = FastAPI()
 
-#tf.config.set_visible_devices([], 'GPU')
+tf.config.set_visible_devices([], 'GPU')
 
 # Obtener la API key desde la variable de entorno
 API_KEY = os.getenv("API_KEY")

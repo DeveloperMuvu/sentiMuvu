@@ -1,10 +1,13 @@
 import os
+import uvicorn
 from fastapi import FastAPI, HTTPException, Header
 from pydantic import BaseModel
 from transformers import pipeline
 from dotenv import load_dotenv
 from fastapi.responses import JSONResponse
+import tensorflow as tf
 
+print(tf.__version__) 
 # Cargar variables de entorno desde el archivo .env
 load_dotenv()
 
